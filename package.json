@@ -1,0 +1,42 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "HW 17 NYT React Search\"",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack & node server",
+    "start": "NODE_ENV=dev node server",
+    "start-prod": "NODE_ENV=production node server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelindaHasselbring/nytreact.git"
+  },
+  "author": "Melinda Hasselbring",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MelindaHasselbring/nytreact/issues"
+  },
+  "homepage": "https://github.com/MelindaHasselbring/nytreact#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.5.5"
+  }
+}
